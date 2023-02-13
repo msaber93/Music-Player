@@ -74,6 +74,28 @@ h3 {
     top: -25px;
 }
 
+/* Controls */
+.player-controls {
+    position: relative;
+    left: 130px;
+    top: -15px;
+    width: 200px;
+}
+.fa-solid {
+    font-size: 30px;
+    margin-right: 20px;
+    color: rgb(129, 129, 129);
+    cursor: pointer;
+    user-select: none;
+}
+.fa-solid:hover {
+    filter: brightness(90%);
+}
+.main-button {
+    font-size: 40px;
+    position: relative;
+    top: 3px;
+}
 
 @media (max-width: 376px) {
     .player-container {
@@ -87,5 +109,8 @@ h3 {
     }
     h3 {
         font-size: 12px;
+    }
+    .player-controls {
+        left: 105px;
     }
 }
