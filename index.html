@@ -5,16 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Player</title>
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" href="/css/normlize.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+    <!-- Song -->
     <div class="player-container">
         <div class="img-container">
             <img src="/Photos/12.jpg" alt="" title="Maher Al Meaqli">
         </div>
         <h2 id="title">Surat Yusuf</h2>
         <h3 id="artist">Maher Al Meaqli</h3>
-        <audio src="/Music/012.mp3" controls></audio>
+        <audio src="/Music/012.mp3"></audio>
+        <!-- Progress -->
+        <div class="progress-container" id="progress-container">
+            <div class="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">00:00</span>
+                <span id="duration">29:59</span>
+            </div>
+        </div>
     </div>
 </body>
 </html>
